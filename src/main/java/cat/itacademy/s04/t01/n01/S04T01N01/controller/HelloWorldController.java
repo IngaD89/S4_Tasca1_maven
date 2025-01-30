@@ -18,6 +18,6 @@ public class HelloWorldController {
         if(name == null || name.isEmpty()){
             name = "UNKNOWN";
         }
-        return "Hola, "  + name + ". Estàs executant un projecte Maven";
+        return "Hola, "  + name + ". Estàs executant un projecte maven";
     }
 }
